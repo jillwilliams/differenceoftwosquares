@@ -1,0 +1,108 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    margin: 15px 30px 45px 30px;
+}
+/* MAIN COLOR COMBINATIONS: SPLIT COMPLEMENTARY
+PRIMARY: LIGHTGOLDENRODYELLOW;
+COMPLEMENTARY: MAGENTA;
+COMPLEMENTARY: BLACK;
+ACCENT: AQUA; */
+
+/* TEXT-FORMATTING           
+"FACTORING THE DIFFERENCE OF TWO SQUARES (a^2 - b^2) */
+#h2 {
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 1px aqua;
+    text-align: center;
+}
+/* OUTER DIV  FORMATTING:  
+BORDER BOX FOR INPUT BOXES */
+#inputs {
+    width: 30%;
+    height: auto;
+    font-family: 'Indie Flower', cursive;
+    border: 2px aqua solid;
+    outline: 1px black solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10px;
+    padding: 25px;
+} 
+/* TEXT AND DIV:  THE FORMULA TO FACTOR THE DIFF OF TWO SQUARES */
+#inputs1 {
+    width: 50%;
+    height: auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.7rem;
+    border: 2px aqua solid;
+    outline: 1px black solid;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 25px;
+}
+/* TEXT-BOX INPUTS:   SIZE  FORMATTING: 
+"ENTER THE VALUE OF A,B" */
+#varA, #varB {
+    font-size: 2.2rem;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    color: magenta;
+    width: 4rem;
+    height: 2.5rem;
+    padding: 15px;
+    border: 1px aqua solid;
+    outline: 1px black solid;
+    overflow: hidden;
+}
+/* BUTTON:    FORMATTING   FIRST ANSWER */
+#submitButton {
+    width: 30%;
+    height: 70px;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 1px 1px 1px black;
+    color: magenta;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    outline: 2px aqua solid;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    letter-spacing: 3px;
+}
+#submitButton:hover {
+    color: aqua;
+    text-shadow: 2px 2px 2px black;
+    background-color: white;
+    border: 2px aqua solid;
+    outline: 1px black solid;
+}
+/* OUTPUT TEXT:  ANSWERS TO THE PROBLEM */
+/* THE "DEMO" FIELD */
+#demo1 {
+    width: 46%;
+    height: 60px;
+    border: 1px black solid;
+    outline: 2px violet solid;
+    margin-left: 27%;
+    margin-right: 27%;
+    background-color: aqua;
+    font-size: 1.8rem;
+    color: black;
+    font-display: bold;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+/* FOOTER TEXT */
+#footer {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    text-align: center;
+}

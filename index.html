@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" 
+        Unicod="U+00A9, UTF-8: C2 A9"
+        Unicode="U+221A, UTF-8: E2 88 9A">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link 
+        href="https://fonts.googleapis.com/css?family=Dokdo|Indie+Flower|Shadows+Into+Light" 
+        rel="stylesheet">
+    <title>
+        Factoring the Difference of Two Squares 
+        <br>
+        (a<sup>2</sup> - b<sup>2</sup>)
+    </title>
+    <link rel="stylesheet" HREF="./styles.css">
+</head>
+<body>
+    <h2 id="h2">
+        Factoring the Difference of Two Squares <br> (a<sup>2</sup> - b<sup>2</sup>)
+    </h2>
+    <p id="inputs1">
+        The Formula to Factor the Difference of Two Squares
+        <br>
+        (a<sup>2</sup> - b<sup>2</sup>) = (ax - b)(ax + b)
+        <br>
+        where a = √a<sup>2</sup> and b = √b<sup>2</sup>
+    </p>
+    <div id="inputs" >
+        <p>
+            Enter variable a<sup>2</sup> = <br>  
+            <input type="numeric" id="varA">  
+        </p>
+        <p>
+            Enter variable b<sup>2</sup> = <br>
+            <input type="numeric" id="varB">  
+        </p>
+    </div> 
+    <div>
+        <button type="submit" id="submitButton" onclick="answer( )">
+            SUBMIT
+        </button>
+    </div>
+    <p id="demo1"></p>
+    <p>
+        To check your answer, you can FOIL the binomials above and verify
+        that 
+        <br>
+        your answer results in the original problem that you started
+        with.
+        <br><br>
+        <p id="inputs1">
+            Remember: 
+            <span style="color:magenta">FOIL-ing</span> 
+            and 
+            <span style="color:magenta">Factoring</span> 
+            <br>
+            are 
+            <span style="text-decoration:underline">"Inverse Operations"</span>
+            <br>
+            Each one undoes the other.
+        </p>
+    </p>
+    <footer id="footer">
+        ©2019 ALL THINGS MATH   ALL RIGHTS RESERVED
+    </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
