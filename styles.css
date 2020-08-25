@@ -67,8 +67,8 @@ BORDER BOX FOR INPUT BOXES */
     text-shadow: 1px 1px 1px black;
     color: magenta;
     font-size: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 39%;
+    margin-right: 31%;
     border: 1px black solid;
     outline: 2px aqua solid;
     margin-top: 20px;
@@ -93,11 +93,16 @@ BORDER BOX FOR INPUT BOXES */
     margin-left: 27%;
     margin-right: 27%;
     background-color: aqua;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color: black;
     font-display: bold;
     padding: 20px;
     letter-spacing: 2px;
+}
+iframe {
+    margin: 15px 33% 15px 33%;
+    border: 1px black solid;
+    outline: 2px violet solid;
 }
 /* FOOTER TEXT */
 #footer {
