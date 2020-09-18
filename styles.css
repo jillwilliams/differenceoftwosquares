@@ -2,7 +2,7 @@ body {
     background-color: lightgoldenrodyellow;
     font-size: 1.5rem;
     color: black;
-    text-align: center;
+    text-align: left;
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 2px;
     margin: 15px 30px 45px 30px;
@@ -20,6 +20,11 @@ ACCENT: AQUA; */
     text-shadow: 1px 1px 1px aqua;
     text-align: center;
 }
+#pic1, #pic2 {
+    width: 30%;
+    height: auto;
+    margin: 15px 35%;
+}
 /* OUTER DIV  FORMATTING:  
 BORDER BOX FOR INPUT BOXES */
 #inputs {
@@ -32,6 +37,7 @@ BORDER BOX FOR INPUT BOXES */
     margin-right: 35%;
     margin-bottom: 10px;
     padding: 25px;
+    text-align: center;
 } 
 /* TEXT AND DIV:  THE FORMULA TO FACTOR THE DIFF OF TWO SQUARES */
 #inputs1 {
@@ -44,6 +50,7 @@ BORDER BOX FOR INPUT BOXES */
     margin-left: 25%;
     margin-right: 25%;
     padding: 25px;
+    text-align: center; 
 }
 /* TEXT-BOX INPUTS:   SIZE  FORMATTING: 
 "ENTER THE VALUE OF A,B" */
@@ -86,18 +93,19 @@ BORDER BOX FOR INPUT BOXES */
 /* OUTPUT TEXT:  ANSWERS TO THE PROBLEM */
 /* THE "DEMO" FIELD */
 #demo1 {
-    width: 46%;
+    width: 50%;
     height: 60px;
     border: 1px black solid;
     outline: 2px violet solid;
-    margin-left: 27%;
-    margin-right: 27%;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: aqua;
     font-size: 1.5rem;
     color: black;
     font-display: bold;
     padding: 20px;
     letter-spacing: 2px;
+    text-align: center;
 }
 iframe {
     margin: 15px 33% 15px 33%;

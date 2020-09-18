@@ -10,8 +10,6 @@
         rel="stylesheet">
     <title>
         Factoring the Difference of Two Squares 
-        <br>
-        (a<sup>2</sup> - b<sup>2</sup>)
     </title>
     <link rel="stylesheet" HREF="./styles.css">
 </head>
@@ -19,68 +17,64 @@
     <h2 id="h2">
         Factoring the Difference of Two Squares <br> (a<sup>2</sup> - b<sup>2</sup>)
     </h2>
-    <p id="inputs1">
+    <hr>
+    <p>
+        To factor the difference of  two squares, you must first know what a "squared" number means. A number multiplied by itself results in a squared number. The first ten perfect squares are listed below.
+    </p>
+    <p>
+        1<sup>2</sup> = 1 x 1 = 1<br>
+        2<sup>2</sup> = 2 x 2 = 4<br>
+        3<sup>2</sup> = 3 x 3 = 9<br>
+        4<sup>2</sup> = 16<br>
+        5<sup>2</sup> =25<br>
+        6<sup>2</sup> = 36<br>
+        7<sup>2</sup> = 49<br>
+        8<sup>2</sup> = 64<br>
+        9<sup>2</sup> = 81<br>
+        10<sup>2</sup> = 100<br>
+    </p>
+    <p>
+        It is important to memorize the first ten perfect squares. Otherwise, when you need to factor a polynomial, you won't recognize what technique to use. Until you've memorized this list, refer back to it for each problem.
+    </p>
+    <p>
+        Perfect square polynomials occur when you foil two binomials and the middle terms cancel eachother out.<br>
+        For example, if you use FOIL to multiply (x - 4)(x + 4) you get x<sup>2</sup> + 4x - 4x - 16 which equals x<sup>2</sup> - 16. 
+    </p>
+    <p>
+        To factor the difference of two squares, they give you the answer, x<sup>2</sup> - 16, and you have to determine what two binomials FOILed to make that answer. In this case, (x + 4)(x - 4).
+    </p>
+    <hr>
+    <p>
+        <p id="inputs1">
         The Formula to Factor the Difference of Two Squares
         <br>
-        (a<sup>2</sup> - b<sup>2</sup>) = (ax - b)(ax + b)
+        x<sup>2</sup> - a<sup>2</sup> =<br>(x + a)(x - a)
         <br>
-        where a = √a<sup>2</sup> and b = √b<sup>2</sup>
     </p>
-    <div id="inputs" >
-        <p>
-            Enter variable a<sup>2</sup> = <br>  
-            <input type="numeric" id="varA">  
-        </p>
-        <p>
-            Enter variable b<sup>2</sup> = <br>
-            <input type="numeric" id="varB">  
-        </p>
-    </div> 
-    <div>
-        <button type="submit" id="submitButton" onclick="answer( )">
-            SUBMIT
-        </button>
-    </div>
-    <p id="demo1"></p>
-    <p>
-        To check your answer, you can FOIL the binomials above and verify
-        that 
-        <br>
-        your answer results in the original problem that you started
-        with.
-        <br><br>
-        <p id="inputs1">
-            Remember: 
-            <span style="color:magenta">FOIL-ing</span> 
-            and 
-            <span style="color:magenta">Factoring</span> 
-            <br>
-            are 
-            <span style="text-decoration:underline">"Inverse Operations"</span>
-            <br>
-            Each one undoes the other.<hr>
-        </p>
-    </p>
+    <hr>
     <p>
         Example:<br>
         Factor x<sup>2</sup> - 4<br>
+        Step 1: Rewrite 4 as some number squared. Refer to the list above until you have it memorized.<br>
         x<sup>2</sup> - 4 = x<sup>2</sup> - (2)<sup>2</sup><br>
-        Using the formula, this expression becomes<br>(x + 2)(x - 2) *Answer
+        Using the formula above, with a = 2, x<sup>2</sup> - a<sup>2</sup> = (x + a)(x - a) this expression becomes<br>(x + 2)(x - 2) *Answer
     </p>
     <hr>
     <p>
         Example:<br>
         Factor x<sup>2</sup> - 25<br>
+        Step 1: Rewrite 25 as some number squared. Refer to the list above until you have it memorized.<br>
         x<sup>2</sup> - 25 = x<sup>2</sup> - (5)<sup>2</sup><br>
-        Using the formula, this expression becomes<br>
+        with a = 5. Using the formula, this expression becomes<br>
         (x + 5)(x - 5) *Answer
     </p>
     <hr>
     <p>
         Example:<br>
         Factor x<sup>2</sup> - 81<br>
+        Step 1: Rewrite 81 as some number squared. Refer to the list above until you have it memorized.<br>
         x<sup>2</sup> - 81 = x<sup>2</sup> - (9)<sup>2</sup><br>
-        Using the formula, this expression becomes<br>
+        with a = 9. Using the formula, this expression becomes<br>
         (x + 9)(x - 9) *Answer
     </p>
     <hr>
@@ -100,13 +94,64 @@
         (x + 11)(x - 11) *Answer
     </p>
     <hr>
+    <p id="inputs1">
+        The Formula to Factor the Difference of Two Squares
+        <br>
+        ax<sup>2</sup> - b<sup>2</sup> =<br>(ax - b)(ax + b)
+    </p>
+    <hr>
     <p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/upBa_BGkP5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        Example:<br>
+        Factor 25x<sup>2</sup> - 16<br>
+        <img src="images/pic1.png" alt="" id="pic1" />
+    </p>
+    <hr>
+    <p>
+        Example:<br>
+        Factor 49x<sup>2</sup> - 9<br>
+        <img src="images/pic2.png" alt="" id="pic2" />
+    </p>
+    <hr>
+    <div id="inputs" >
+        <p>
+            Difference of Two Squares Calculator<hr>
+        </p>
+        <p>
+            Enter the coefficient of variable x<sup>2</sup> = <br>  
+            <input type="numeric" id="varA">  
+        </p>
+        <p>
+            Enter variable b<sup>2</sup> = <br>
+            <input type="numeric" id="varB">  
+        </p>
+    </div> 
+    <div>
+        <button type="submit" id="submitButton" onclick="answer( )">
+            SUBMIT
+        </button>
+    </div>
+    <p id="demo1"></p>
+    <p>
+        To check your answer, you can FOIL the binomials above and verify that your answer results in the original problem that you started with.
+        <br>
+        <p id="inputs1">
+            Remember: 
+            <span style="color:magenta">FOIL-ing</span> 
+            and 
+            <span style="color:magenta">Factoring</span> 
+            <br>
+            are 
+            <span style="text-decoration:underline">"Inverse Operations"</span>
+            <br>
+            Each one undoes the other.<hr>
+        </p>
+    </p>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/upBa_BGkP5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><hr>
     </p>
     <footer id="footer">
-        ©2019 ALL THINGS MATH   ALL RIGHTS RESERVED
+        ©2020 ALL THINGS MATH<br>ALL RIGHTS RESERVED
     </footer>
-
     <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
